@@ -1,0 +1,57 @@
+{
+  "name": "landtechtest",
+  "version": "1.0.0",
+  "description": "LandTech",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --exec \"babel-node\" ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karri-sek/LandTechTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karri-sek/LandTechTest/issues"
+  },
+  "homepage": "https://github.com/karri-sek/LandTechTest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.4.2",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "chai": "^4.3.4",
+    "eslint": "^5.5.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "flow-bin": "^0.80.0",
+    "flow-typed": "^2.5.1",
+    "jest": "^23.5.0",
+    "jest-extended": "^0.8.1",
+    "nock": "^13.0.11",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1",
+    "supertest": "^6.1.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    },
+    "verbose": true
+  }
+}

@@ -1,0 +1,6 @@
+company_id,name,parent
+C2013,Acme Land Ltd,null
+C71299,Jacksons Stores Limited,C2013
+C45353,Jacksons Stores Manchester Limited,C71299
+C4012,J Sainsbury PLC,null
+C2222,companyD,C4012
